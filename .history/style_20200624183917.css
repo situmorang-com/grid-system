@@ -55,9 +55,5 @@ main {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.gallery img {
-    width: 100%;
+    grid-template-columns: repeat(3, 200px);
 }
